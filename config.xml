@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "bby261.burcukaramanlioglu.sozluk"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- Standart Uygulama Verileri -->
+
+    <name>BBY261 Burcu Karamanlıoğlu Bilgi Bilim Alanı Sölük</name>
+
+    <description>
+       
+    </description>
+
+    <author  email="burcukaramanlioglu@gmail.com">
+       Burcu KARAMANLIOĞLU
+    </author>
+        
+    <!-- Derleme Platformu -->
+        
+    <gap:platform name="android" />
+        
+    <!-- Ek Özellikler -->
+
+    <!-- <preference name="orientation" value="landscape" /> -->
+    <preference name="fullscreen" value="false" />
+        
+    <!-- Açılış Ekranı ve İkon -->
+     
+    <icon src="sozluk.fw.png" />
+    <gap:splash src="splash.jpg" />
+    <preference name="splash-screen-duration" value="2000"/>
+    
+    <!-- Uygulama Hakları -->
+    
+    <preference name="permissions" value="none"/>
+        
+</widget>
